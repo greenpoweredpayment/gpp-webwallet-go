@@ -10,7 +10,7 @@ import (
 	"regexp"
 	"strconv"
 
-	"./greenpoweredpayment-rpc-go/walletd"// "./turtlecoin-rpc-go/walletd"
+	"./turtlecoin-rpc-go/walletd"//"./greenpoweredpayment-rpc-go/walletd"
 	_ "github.com/lib/pq"
 
 	"github.com/julienschmidt/httprouter"
