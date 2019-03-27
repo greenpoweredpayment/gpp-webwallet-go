@@ -4,5 +4,5 @@ DB_PWD=password
 HOST_URI='http://localhost'
 HOST_PORT=':8082'
 RPC_PWD=password
-RPC_PORT='8070' \ #  21315 deamon RPC port
+RPC_PORT='8070' 
 go run wallet.go utils.go
