@@ -39,6 +39,7 @@ func init() {
 		panic("Set the DB_PWD env variable")
 	}
 
+ 	println("postgres://"+dbUser+":"+dbPwd+"@localhost/tx_history?sslmode=disable")
 	walletDB, err = sql.Open("postgres", "postgres://"+dbUser+":"+dbPwd+"@localhost/tx_history?sslmode=disable")
 	if err != nil {
 		panic(err)
