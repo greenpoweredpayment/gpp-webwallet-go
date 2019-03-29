@@ -103,7 +103,7 @@ body {
   text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
 }
 .landing-logo {
-    height: 40px;
+    height: 120px;
     width: auto;
     margin-top: 16px;
     margin-bottom: 4px;
@@ -121,6 +121,6 @@ body {
     padding: 8px;
 }
 .brand-header-logo {
-    height: 36px;
+    height: 100px;
     width: auto;
 }
